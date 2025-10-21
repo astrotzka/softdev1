@@ -21,12 +21,13 @@ public class Form {
          System.out.println("-====================================-");
          System.out.println("-                ATU                 -");
          System.out.println("-====================================-");
-         System.out.printf("- %-34s -%n", "Name:        - " + name);
+         System.out.printf("- %-38s -%n", "Name:        - " + name);
          System.out.println("--------------------------------------");
-         System.out.printf("- %-34s -%n", "Phone Number:- " + number);
+         System.out.printf("- %-38s -%n", "Phone Number:- " + number);
          System.out.println("--------------------------------------");
-         System.out.printf("- %-34s -%n", "Email:       - " + email);
+         System.out.printf("- %-38s -%n", "Email:       - " + email);
          System.out.println("--------------------------------------");
+         input.close();
 
 
     }

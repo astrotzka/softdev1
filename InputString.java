@@ -8,5 +8,7 @@ public class InputString {
     n = input.next();
 
     System.out.println ("Hello " + n);
+
+    input.close();
     }
 }

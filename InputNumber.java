@@ -8,5 +8,7 @@ public class InputNumber {
         num = input.nextInt();
         System.out.println("Number entered is: " + num);
 
+        input.close();
+
     }
 }

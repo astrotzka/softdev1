@@ -19,5 +19,7 @@ public class Inputs {
     System.out.println ("");
     System.out.println (n + ", you entered yhe numbers " + num + " and " + dec);
 
+    input.close();
+
     }
 }

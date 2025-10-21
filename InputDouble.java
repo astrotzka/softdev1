@@ -8,6 +8,8 @@ public class InputDouble {
         num = input.nextDouble();
         System.out.println("Number entered is: " + num);
 
+        input.close();
+
     }
 }
 
