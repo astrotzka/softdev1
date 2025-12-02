@@ -9,5 +9,6 @@ public class seven {
         }else{
             System.out.println("Number entered is " + number + ", is not equal to 7");
         }
+    input.close();
     }
 }

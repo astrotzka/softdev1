@@ -12,5 +12,6 @@ public class MultipleElse {
         }else{
             System.out.println(num1 + " is not a multiple of " + num2);
         }
+    input.close();
     }
 }
