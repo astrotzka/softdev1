@@ -17,8 +17,8 @@ public class Exercise4 {
             System.out.println("Green: Go");
         }else if(colour1.toLowerCase().equals("yellow")){
             System.out.println("Yellow: Reday");
-        
-        if (colour1.toLowerCase() == colour2.toLowerCase()){
+        }
+        if (colour1.toLowerCase().equals(colour2.toLowerCase())){
             System.out.println("Colour has already been entered, restart");
             return;
         }
@@ -28,9 +28,9 @@ public class Exercise4 {
         }else if(colour2.toLowerCase().equals("green")){
             System.out.println("Green: Go");
         }else if(colour2.toLowerCase().equals("yellow")){
-            System.out.println("Yellow: Reday");
-
-        if (colour3.toLowerCase() == colour2.toLowerCase() || (colour3.toLowerCase() == colour1.toLowerCase())){
+            System.out.println("Yellow: Ready");
+        }
+        if (colour3.toLowerCase().equals(colour2.toLowerCase()) || (colour3.toLowerCase().equals(colour1.toLowerCase()))){
             System.out.println("Colour has already been entered, restart");
             return;
         }
@@ -40,10 +40,8 @@ public class Exercise4 {
         }else if(colour3.toLowerCase().equals("green")){
             System.out.println("Green: Go");
         }else if(colour3.toLowerCase().equals("yellow")){
-            System.out.println("Yellow: Reday");
+            System.out.println("Yellow: Ready");
         
         }
     }
-}
-}
 }
